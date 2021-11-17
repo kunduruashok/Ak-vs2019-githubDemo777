@@ -32,7 +32,7 @@ namespace Ak_vs2019_githubDemo777
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("<h1>Hello World!</h1>");
                 });
             });
         }
